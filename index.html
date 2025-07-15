@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Calendar</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png" alt="calendar icon" class="icon" />
+      Calendar Task Manager
+    </h1>
+
+    <div class="input-section">
+      <input type="date" id="taskDate" />
+      <input type="text" id="taskInput" placeholder="Enter your task..." />
+      <button id="addBtn">
+        <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" class="btn-icon" />
+        Add Task
+      </button>
+    </div>
+
+    <div class="calendar-section">
+      <h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" class="section-icon" />
+        Tasks by Date
+      </h2>
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+``
